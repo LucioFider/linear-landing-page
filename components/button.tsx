@@ -10,8 +10,8 @@ const buttonClasses = cva("rounded-full inline-flex items-center", {
   variants: {
     variant: {
       primary: "bg-primary-gradient hover:text-shadow hover:box-shadow-primary",
-      secondary: "",
-      tertiary: "",
+      secondary:
+        "text-off-white bg-white bg-opacity-10 border border-transparent-white backdrop-filter-[12px]",
     },
     size: {
       small: "text-xs px-3 h-7",
