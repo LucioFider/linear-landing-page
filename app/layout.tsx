@@ -18,7 +18,9 @@ export default function RootLayout({
       <body>
         <div>
           <Header />
-          <main className="page-gradient pt-navigation-height">{children}</main>
+          <main className="overflow-hidden page-gradient pt-navigation-height">
+            {children}
+          </main>
           <Footer />
         </div>
       </body>
